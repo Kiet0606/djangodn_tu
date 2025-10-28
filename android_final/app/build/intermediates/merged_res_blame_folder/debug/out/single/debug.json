@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.attendance.app-merged_res-33:/xml_file_paths.xml.flat",
+        "source": "com.example.attendance.app-main-35:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.example.attendance.app-merged_res-33:/layout_activity_main.xml.flat",
+        "source": "com.example.attendance.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.attendance.app-merged_res-33:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.attendance.app-main-35:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.attendance.app-merged_res-33:/layout_activity_login.xml.flat",
+        "source": "com.example.attendance.app-main-35:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.attendance.app-merged_res-33:/layout_activity_history.xml.flat",
+        "source": "com.example.attendance.app-main-35:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.example.attendance.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.attendance.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.attendance.app-merged_res-33:/layout_activity_home.xml.flat",
+        "source": "com.example.attendance.app-main-35:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.attendance.app-merged_res-33:/layout_activity_profile.xml.flat",
+        "source": "com.example.attendance.app-main-35:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.attendance.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.attendance.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

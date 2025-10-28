@@ -1,0 +1,29 @@
+{% extends "attendance/base.html" %}
+{% block title %}Đăng ký khuôn mặt{% endblock %}
+{% block content %}
+<h5>Đăng ký khuôn mặt cho: {{ emp.user.username }}</h5>
+
+<p>Tải lên một ảnh chân dung rõ nét, chính diện, không đeo kính râm hoặc khẩu trang.</p>
+
+{% if error %}
+  <div class="alert alert-danger">{{ error }}</div>
+{% endif %}
+
+<form method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  <div class="mb-3">
+    <label for="face_image" class="form-label">Chọn ảnh (JPG, PNG):</label>
+    <input class="form-control" type="file" id="face_image" name="face_image" accept="image/png, image/jpeg" required>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Tải lên và xử lý</button>
+  <a class="btn btn-secondary" href="{% url 'web_employee_edit' emp.id %}">Quay lại</a>
+</form>
+
+{% if emp.face_embedding %}
+  <div class="alert alert-success mt-3">
+    <strong>Đã có mẫu khuôn mặt.</strong> Tải lên ảnh mới sẽ ghi đè lên mẫu cũ.
+  </div>
+{% endif %}
+
+{% endblock %}
